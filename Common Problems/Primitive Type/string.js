@@ -11,3 +11,6 @@ const remove = (s) => s.replace(/[!()'"]/g, "").concat("!");
 
 // 5. Number to String
 const numberToString = (num) => num.toString();
+
+// 6.String to Number
+const stringToNumber = (str) => parseInt(str);
