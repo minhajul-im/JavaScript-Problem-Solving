@@ -14,3 +14,7 @@ const numberToString = (num) => num.toString();
 
 // 6.String to Number
 const stringToNumber = (str) => parseInt(str);
+
+// 7. Remove First and Last Character
+const removeChar = (str) => str.slice(1, -1);
+const removeChar2 = (str) => str.substring(1, str.length - 1);
