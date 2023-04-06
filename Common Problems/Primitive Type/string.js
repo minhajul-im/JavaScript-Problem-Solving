@@ -21,3 +21,9 @@ const removeChar2 = (str) => str.substring(1, str.length - 1);
 
 // 8. Template String
 const templeStrings = (obj, feature) => `${obj} ${feature}`;
+
+// 9. Reverse String
+const reverseString = (str) => {
+  const string = str.split("");
+  return string.reverse().join("");
+};
