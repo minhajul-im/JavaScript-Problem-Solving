@@ -24,3 +24,17 @@ const multiDimensionalArrayOfSum = (matrix) => {
   }
   return sum;
 };
+
+// 4 problem Odd & Eve.
+let n = [2, 54, 64, 2, 55, 77, 00, 99];
+const oddEven = function (n) {
+  let odd, even;
+  for (let i = 0; i < n.length; i++) {
+    if (n[i] % 2 === 0) {
+      even = `${n[i]} - Even Number`;
+    } else if (n[i] % 2 === 1) {
+      odd = `${n[i]} - Odd Number`;
+    }
+  }
+};
+oddEven(n);
