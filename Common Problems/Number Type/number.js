@@ -38,3 +38,11 @@ const oddEven = function (n) {
   }
 };
 oddEven(n);
+
+// 5.problem reverse loop descending
+const descending = (n) => {
+  for (let i = n; i >= 1; i--) {
+    console.log(i);
+  }
+};
+descending();
