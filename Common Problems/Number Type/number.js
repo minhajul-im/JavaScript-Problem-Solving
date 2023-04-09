@@ -80,3 +80,11 @@ const positiveNegative = (n) => {
   }
 };
 positiveNegative();
+
+// 9.problem reverse loop
+const descendingOrder = (n) => {
+  for (let i = n; i >= 1; i--) {
+    console.log(i);
+  }
+};
+descending();
