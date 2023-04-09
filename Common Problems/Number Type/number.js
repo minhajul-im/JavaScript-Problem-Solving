@@ -60,3 +60,6 @@ const oddToEven = function (n) {
   }
 };
 oddEven(num);
+
+// 7 check Even and Odd
+const checkEvenOdd = (num) => (num % 2 === 0 ? "Even" : "Odd");
