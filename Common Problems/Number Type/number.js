@@ -63,3 +63,20 @@ oddEven(num);
 
 // 7 check Even and Odd
 const checkEvenOdd = (num) => (num % 2 === 0 ? "Even" : "Odd");
+
+// 8. problem  positive and negative Number
+const numArr = [-46, -45, 33, -88, -90, -44, 44, 81, 90];
+const positiveNegative = (n) => {
+  for (let i = 0; i < n.length; i++) {
+    if (n[i] > 0) {
+      if (n[i] % 2 === 0) {
+        console.log(`${n[i]} - Even Number`);
+      } else {
+        console.log(`${n[i]} - Odd Number`);
+      }
+    } else {
+      console.log(`${n[i]} - Negative Number`);
+    }
+  }
+};
+positiveNegative();
