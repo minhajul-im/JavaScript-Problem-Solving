@@ -46,3 +46,17 @@ const descending = (n) => {
   }
 };
 descending();
+
+//  6 problem Odd & Eve.
+let num = [2, 54, 64, 2, 55, 77, 00, 99];
+const oddToEven = function (n) {
+  let odd, even;
+  for (let i = 0; i < n.length; i++) {
+    if (n[i] % 2 === 0) {
+      even = `${n[i]} - Even Number`;
+    } else if (n[i] % 2 === 1) {
+      odd = `${n[i]} - Odd Number`;
+    }
+  }
+};
+oddEven(num);
