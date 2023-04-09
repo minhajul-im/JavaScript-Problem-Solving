@@ -88,3 +88,14 @@ const descendingOrder = (n) => {
   }
 };
 descending();
+
+// 8.problem divisor finding
+const divisorFindingArray = (data) => {
+  let arr = [];
+  for (let i = 1; i < data; i++) {
+    if (data % i == 0) {
+      arr.push(i);
+    }
+  }
+};
+divisorFindingArray(20);
