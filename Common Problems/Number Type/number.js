@@ -99,3 +99,16 @@ const divisorFindingArray = (data) => {
   }
 };
 divisorFindingArray(20);
+
+// 16. random random
+const generateRand = (max, whatDoYouWant) => {
+  const r1 = Math.trunc(Math.random() * max);
+  const r2 = Math.trunc(Math.random() * max);
+  const result = whatDoYouWant(r1, r2);
+  return result;
+};
+const a = generateRand(100, (r1, r2) => r1 + r2);
+const b = generateRand(20, (a1, a2) => a1 - a2);
+const c = generateRand(20, (a1, a2) => a1 * a2);
+const d = generateRand(20, (a1, a2) => a1 / a2);
+// console.log(a, b, c, d);
