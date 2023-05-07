@@ -17,6 +17,11 @@ var isAnagram = function (s, t) {
   return true;
 };
 
+// built-in method
+var isAnagramB = function (s, t) {
+  return s.split("").sort().join() === t.split("").sort().join();
+};
+
 let s = "anagram",
   t = "nagaram",
   a = "rat",
