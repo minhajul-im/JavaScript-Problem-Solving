@@ -1,5 +1,7 @@
 // 102. Binary Tree Level Order Traversal
 
+// breadth fast search solution
+
 var levelOrder = function (root) {
   if (!root) return [];
 
