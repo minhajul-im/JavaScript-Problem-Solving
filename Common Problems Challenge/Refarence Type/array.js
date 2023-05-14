@@ -9,6 +9,7 @@ const arr = [
   { id: 7, value: 70 },
 ];
 const index = arr.findIndex((item) => item.id === 3);
+
 // mutable
 const arr1 = arr.splice(index, 1);
 // console.log(arr1);
