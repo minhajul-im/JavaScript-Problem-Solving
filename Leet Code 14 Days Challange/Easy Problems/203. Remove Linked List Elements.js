@@ -1,5 +1,6 @@
 // 203. Remove Linked List Elements
 //linked list
+
 var removeElements = function (head, val) {
   let node = new ListNode(-1, head);
 

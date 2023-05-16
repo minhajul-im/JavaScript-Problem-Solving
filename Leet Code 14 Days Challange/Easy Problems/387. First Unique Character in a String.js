@@ -1,3 +1,5 @@
+// 387. First Unique Character in a String
+
 // hash table
 
 var firstUniqChar = function (s) {

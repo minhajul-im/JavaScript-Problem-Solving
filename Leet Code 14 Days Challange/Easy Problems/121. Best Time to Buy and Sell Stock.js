@@ -1,3 +1,5 @@
+// 121 Best Time to Buy and Sell Stock
+
 var maxProfit = function (prices) {
   let left = 0; // buy price index
   let right = 1; // sell price index

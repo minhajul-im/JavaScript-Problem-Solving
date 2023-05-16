@@ -1,4 +1,5 @@
 // 141. Linked List Cycle
+
 var hasCycle = function (head) {
   if (!head) return false;
 

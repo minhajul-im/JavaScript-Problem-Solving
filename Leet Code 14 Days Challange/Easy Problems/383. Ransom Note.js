@@ -1,3 +1,5 @@
+// Ransom Note
+
 var canConstruct = function (ransomNote, magazine) {
   let map = new Map();
 

@@ -1,3 +1,5 @@
+// 118. Pascal's Triangle
+
 var generate = function (numRows) {
   const result = [];
   if (numRows >= 1) {
