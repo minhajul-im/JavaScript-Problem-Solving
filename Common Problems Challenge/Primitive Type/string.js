@@ -27,3 +27,14 @@ const reverseString = (str) => {
   const string = str.split("");
   return string.reverse().join("");
 };
+
+// last character full stop or not,
+const str1 = "hello minhajul";
+const str2 = "hello islam.";
+
+const y =
+  str1.length < 10 && str1[str1.length - 1] === "." ? str1 : str1 + ".....";
+const x = str2.length > 5 && str2[str2.length - 1] === "." ? str2 : str2 + ".";
+
+console.log(y);
+console.log(x);
