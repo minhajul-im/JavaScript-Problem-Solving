@@ -37,6 +37,8 @@ const shortMaker = (arr) => {
     if (arr.at(0) === arr.at(1)) {
       return "equal!";
     } else {
+      //bubble sort or simply built-in methods we can use both.
+
       // bubble sort
       for (let i = 0; arr.length > i; i++) {
         for (let j = i; arr.length > j; j++) {
@@ -47,11 +49,14 @@ const shortMaker = (arr) => {
           }
         }
       }
-      // small array
+
+      //built-in methods
       return arr.sort().reverse();
     }
   }
+  //when you use bubble sort otherwise no need 'return'
   return arr;
 };
 
-console.log(shortMaker([1, -3]));
+const arr = [1, -3];
+console.log(shortMaker(arr));

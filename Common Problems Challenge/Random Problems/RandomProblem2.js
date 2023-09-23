@@ -17,9 +17,9 @@ function findAddress(obj) {
 }
  */
 
-const findAddress = (obj) => {
+const findAddress = (address) => {
   // destructure
-  const { street, house, society } = obj;
+  const { street, house, society } = address;
 
   if (street && house && society) {
     return `${street}, ${house}, ${society}!`;
@@ -30,5 +30,5 @@ const findAddress = (obj) => {
   }
 };
 
-const obj = { street: "", house: "", society: "Earth Perfect" };
-console.log(findAddress(obj));
+const address = { street: "", house: "", society: "Earth Perfect" };
+console.log(findAddress(address));
